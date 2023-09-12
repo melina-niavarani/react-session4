@@ -21,10 +21,10 @@
 
 // =============================================
 
-// function circumference(r: number) {
-//     const p = 3.14
-//     return 2 * p * r
-// }
+function circumference(r: number) {
+    const p = 3.14
+    return 2 * p * r
+}
 
 // let a = circumference(10)
 // console.log(a)
@@ -41,10 +41,9 @@
 // console.log(area)
 
 // ==================================mohit nim dayere=====
-function circumference(r: number): number {
-    const p = 3.14
-    return (p * r) + (2 * r)
+function halfCircumference(r: number): number {
+    return (circumference(r)/2) + (2 * r)
 }
 
-let nimDayere = circumference(10)
+let nimDayere = halfCircumference(10)
 console.log(nimDayere)
