@@ -26,8 +26,8 @@ function circumference(r: number) {
     return 2 * p * r
 }
 
-// let a = circumference(10)
-// console.log(a)
+let a = circumference(10)
+console.log(a)
 
 
 // ==============================================
